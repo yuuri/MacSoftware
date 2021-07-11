@@ -58,3 +58,28 @@
 
 28.[Pycharm](https://www.jetbrains.com/pycharm/) (Python IDE)
 
+
+
+
+
+
+
+#### Podcast
+
+[GGtalk](https://talk.swift.gg/)
+
+[捕蛇者说](https://pythonhunter.org/)
+
+[牛油果烤面包](https://avocadotoast.live/)
+
+[Go夜聊](https://talkgo.fm/)
+
+[Teahour](https://teahour.fm/)
+
+[Changelog](https://changelog.com/podcast)
+
+[Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
+
+[内核恐慌](https://pan.icu/)
+
+[代码时间](https://www.ximalaya.com/keji/4867505/)
