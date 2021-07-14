@@ -83,3 +83,6 @@
 [内核恐慌](https://pan.icu/)
 
 [代码时间](https://www.ximalaya.com/keji/4867505/)
+
+[The Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
+
