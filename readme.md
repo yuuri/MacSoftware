@@ -86,3 +86,16 @@
 
 [The Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
 
+
+
+
+
+#### Salary Search
+
+https://salaryfly.com/
+
+https://www.ioffershow.com/
+
+https://www.glassdoor.com/Salaries/index.htm
+
+https://www.levels.fyi/
