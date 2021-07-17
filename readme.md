@@ -58,7 +58,9 @@
 
 28.[Pycharm](https://www.jetbrains.com/pycharm/) (Python IDE)
 
+29.[Downie 4](https://software.charliemonroe.net/downie/)  (下载工具)[需要安装对应浏览器的扩展]
 
+30.[Permute](https://software.charliemonroe.net/permute/) (视频转换工具)
 
 
 
