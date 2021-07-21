@@ -101,3 +101,12 @@ https://www.ioffershow.com/
 https://www.glassdoor.com/Salaries/index.htm
 
 https://www.levels.fyi/
+
+
+
+#### 天气查询
+
+[中央气象台(nmc.cn)](http://www.nmc.cn/)
+
+[windy.com](https://www.windy.com/)
+
