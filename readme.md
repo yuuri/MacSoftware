@@ -110,3 +110,87 @@ https://www.levels.fyi/
 
 [windy.com](https://www.windy.com/)
 
+
+
+#### iTerm 相关配置
+
+##### 1.悬浮窗口
+
+需求: 希望在打开网页或者其他窗口时能有使用快捷键快速的呼出iTerm 2 终端.然后同样适用快捷键进行隐藏
+
+具体配置步骤如下:
+
+###### 创建新的Profile
+
+打开iTerm 的`perference` -> `profile`,创建新的`profile`并改名为`HotKey Window`
+
+![iShot2021-07-22 11.04.25](./readme.assets/iShot2021-07-22 11.04.25.png)
+
+###### 设置透明度
+
+![image-20210722111710382](./readme.assets/image-20210722111710382.png)
+
+###### 设置窗口风格
+
+![image-20210722111745498](./readme.assets/image-20210722111745498.png)
+
+- **Full-Width Top of Screen** : 让终端显示在屏幕顶部，并占满整个宽度。
+- **Current Spce** : 表示只显示在当前的工作空间,假设你在当前屏幕打开了终端，你切换到下一个屏幕时它就不会跟到下一个屏幕。
+- **Screen width Cursor** : 这个和上面的参数搭配，用来判定哪个屏幕属于当前的工作空间，表示你的鼠标在哪，哪里就是当前的工作空间
+
+###### 设置快捷键
+
+`perference-> profile->keys->HotKey window`
+
+![image-20210722112045020](./readme.assets/image-20210722112045020.png)
+
+点击`Configure Hotkey Windows`按钮进行配置快捷键选项
+
+![image-20210722112154112](./readme.assets/image-20210722112154112.png) 
+
+要使得能够添加一个键作为iTerm 快捷键,需要做一些额外的配置
+
+打开`系统偏好设置` 选中 `键盘`
+
+![image-20210722112436919](./readme.assets/image-20210722112436919.png)
+
+然后在`快捷键`-> `功能键中添加iTerm 2`
+
+![image-20210722112655146](./readme.assets/image-20210722112655146.png)
+
+
+
+#### 2.iTerm 2 添加SSH 连接
+
+##### 1.新建profile,并设置登录commnad
+
+登录command 格式为`ssh user@ip -p port`
+
+![image-20210722123920814](./readme.assets/image-20210722123920814.png)
+
+
+
+##### 2.添加触发器,配置密码
+
+选择`Advanced` 编辑Triggers
+
+![image-20210722124111420](./readme.assets/image-20210722124111420.png)
+
+
+
+配置Triggers 参数(Parameters 参数为登录密码并添加`\n`参数)
+
+![image-20210722124315149](./readme.assets/image-20210722124315149.png)
+
+
+
+##### 3. 配置快捷键
+
+勾选 `A hotkey opens a dedicated windows with this profile`
+
+![image-20210722124601291](./readme.assets/image-20210722124601291.png)
+
+配置快捷键
+
+![image-20210722124717070](./readme.assets/image-20210722124717070.png)
+
