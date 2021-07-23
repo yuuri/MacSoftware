@@ -194,3 +194,29 @@ https://www.levels.fyi/
 
 ![image-20210722124717070](./readme.assets/image-20210722124717070.png)
 
+
+
+
+
+#### iTerm 2 配置X-Window
+
+为了能直接在macOS 中打开`virt-manager`,发现在`iTerm 2`中直接打开iTerm 2 会报错,查阅资料后发现需要给iTerm 2 配置以实现X11图形化界面显示.
+
+```
+# macOS安装xquartz
+brew install xquartz
+
+# 启动xquartz，实测`Allow connections from clients`选项非必须条件
+Run Applications > Utilities > XQuartz.app
+
+# 设置DISPLAY环境变量
+export DISPLAY=:0
+
+# 适用ssh -Y 来登录终端
+ssh -Y root@192.168.117.148
+
+# 登录终端后使用virt-manager来打开终端,响应过程有些缓慢,耐心等待即可
+
+```
+
+![image-20210723194035438](readme.assets/image-20210723194035438.png)
