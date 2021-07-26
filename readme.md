@@ -62,6 +62,16 @@
 
 30.[Permute](https://software.charliemonroe.net/permute/) (视频转换工具)
 
+31.[foobar2000](https://www.foobar2000.org/mac) (音乐播放工具)
+
+32.[XQuartz](https://www.xquartz.org/) (X11.app)
+
+33.[iMazing](https://imazing.com/)  (iPhone 管理工具)
+
+34.[Maipo](https://weiboformac.sinaapp.com/) (微博macOS 客户端)
+
+
+
 
 
 
@@ -87,6 +97,8 @@
 [代码时间](https://www.ximalaya.com/keji/4867505/)
 
 [The Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
+
+[FM3.14](https://podcasts.apple.com/cn/podcast/id1492046083)
 
 
 
@@ -124,15 +136,15 @@ https://www.levels.fyi/
 
 打开iTerm 的`perference` -> `profile`,创建新的`profile`并改名为`HotKey Window`
 
-![iShot2021-07-22 11.04.25](./readme.assets/iShot2021-07-22 11.04.25.png)
+![](readme.assets/iShot2021-07-2211.04.25.png)
 
 ###### 设置透明度
 
-![image-20210722111710382](./readme.assets/image-20210722111710382.png)
+![image-20210722111710382](readme.assets/image-20210722111710382.png)
 
 ###### 设置窗口风格
 
-![image-20210722111745498](./readme.assets/image-20210722111745498.png)
+![image-20210722111745498](readme.assets/image-20210722111745498.png)
 
 - **Full-Width Top of Screen** : 让终端显示在屏幕顶部，并占满整个宽度。
 - **Current Spce** : 表示只显示在当前的工作空间,假设你在当前屏幕打开了终端，你切换到下一个屏幕时它就不会跟到下一个屏幕。
@@ -142,21 +154,21 @@ https://www.levels.fyi/
 
 `perference-> profile->keys->HotKey window`
 
-![image-20210722112045020](./readme.assets/image-20210722112045020.png)
+![image-20210722112045020](readme.assets/image-20210722112045020.png)
 
 点击`Configure Hotkey Windows`按钮进行配置快捷键选项
 
-![image-20210722112154112](./readme.assets/image-20210722112154112.png) 
+![image-20210722112154112](readme.assets/image-20210722112154112.png) 
 
 要使得能够添加一个键作为iTerm 快捷键,需要做一些额外的配置
 
 打开`系统偏好设置` 选中 `键盘`
 
-![image-20210722112436919](./readme.assets/image-20210722112436919.png)
+![image-20210722112436919](readme.assets/image-20210722112436919.png)
 
 然后在`快捷键`-> `功能键中添加iTerm 2`
 
-![image-20210722112655146](./readme.assets/image-20210722112655146.png)
+![image-20210722112655146](readme.assets/image-20210722112655146.png)
 
 
 
@@ -166,7 +178,7 @@ https://www.levels.fyi/
 
 登录command 格式为`ssh user@ip -p port`
 
-![image-20210722123920814](./readme.assets/image-20210722123920814.png)
+![image-20210722123920814](readme.assets/image-20210722123920814.png)
 
 
 
@@ -174,13 +186,13 @@ https://www.levels.fyi/
 
 选择`Advanced` 编辑Triggers
 
-![image-20210722124111420](./readme.assets/image-20210722124111420.png)
+![image-20210722124111420](readme.assets/image-20210722124111420.png)
 
 
 
 配置Triggers 参数(Parameters 参数为登录密码并添加`\n`参数)
 
-![image-20210722124315149](./readme.assets/image-20210722124315149.png)
+![image-20210722124315149](readme.assets/image-20210722124315149.png)
 
 
 
@@ -188,11 +200,11 @@ https://www.levels.fyi/
 
 勾选 `A hotkey opens a dedicated windows with this profile`
 
-![image-20210722124601291](./readme.assets/image-20210722124601291.png)
+![image-20210722124601291](readme.assets/image-20210722124601291.png)
 
 配置快捷键
 
-![image-20210722124717070](./readme.assets/image-20210722124717070.png)
+![image-20210722124717070](readme.assets/image-20210722124717070.png)
 
 
 
@@ -220,3 +232,8 @@ ssh -Y root@192.168.117.148
 ```
 
 ![image-20210723194035438](readme.assets/image-20210723194035438.png)
+
+
+
+#### macOS 快捷键
+
