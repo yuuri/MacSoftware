@@ -235,5 +235,50 @@ ssh -Y root@192.168.117.148
 
 
 
+
+
+
+
 #### macOS 快捷键
+
+
+
+
+
+#### install Golang(Linux Version)
+
+1.Download go archive file
+
+```shell
+wget https://golang.org/dl/go1.16.6.linux-amd64.tar.gz
+```
+
+2.Extract archive file
+
+**if you want to delete previous go file, please run  `rm -rf /usr/local/go`**
+
+```shell
+tar -C /usr/local -xzf go1.16.6.linux-amd64.tar.gz
+```
+
+3.Add env to PATH (add to `$HOME/.profile or /etc/profile`)
+
+```
+export PATH=$PATH:/usr/local/go/bin
+source /etc/profile
+```
+
+4.Verify go version
+
+```
+go version
+```
+
+5.Set go proxy for fast speed on download go module
+
+```
+echo "export GO111MODULE=on" >>/etc/profile
+echo "export GOPROXY=https://goproxy.cn" >> /etc/profile
+source /etc/profile
+```
 
