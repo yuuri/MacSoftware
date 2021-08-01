@@ -70,6 +70,8 @@
 
 34.[Maipo](https://weiboformac.sinaapp.com/) (微博macOS 客户端)
 
+35.[YouTube-Music](https://github.com/steve228uk/YouTube-Music) (YouTube Music 第三方客户端)
+
 
 
 
