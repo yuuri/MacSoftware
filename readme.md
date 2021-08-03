@@ -72,6 +72,8 @@
 
 35.[YouTube-Music](https://github.com/steve228uk/YouTube-Music) (YouTube Music 第三方客户端)
 
+36.[Amphetamine](https://apps.apple.com/app/amphetamine/id937984704?mt=12) (macOS 防止休眠应用)
+
 
 
 
@@ -102,7 +104,7 @@
 
 [FM3.14](https://podcasts.apple.com/cn/podcast/id1492046083)
 
-
+[PyTorch Developer Podcast](https://pytorch-dev-podcast.simplecast.com/)
 
 
 
