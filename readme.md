@@ -18,6 +18,8 @@
 
 8.[Alfred](https://www.alfredapp.com/) (快捷指令工具)
 
+8.1 [Raycast](https://www.raycast.com/) (快捷指令工具,可进行分屏操作快捷键)
+
 9.[VVebo](https://apps.apple.com/cn/app/vvebo/id670910957) (新浪微博第三方客户端) [Mac App Store 下载]
 
 10.[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases) (支持macOS)
