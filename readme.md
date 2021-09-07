@@ -1,7 +1,5 @@
 #### Mac 已安装软件清单
 
-
-
 1.[Chrome](https://www.google.com/chrome/) (浏览器)
 
 2.[Qspace Pro](https://qspace.awehunt.com/zh-cn/index.html) (多视图文件管理工具)
@@ -76,12 +74,6 @@
 
 36.[Amphetamine](https://apps.apple.com/app/amphetamine/id937984704?mt=12) (macOS 防止休眠应用)
 
-
-
-
-
-
-
 #### Podcast
 
 [GGtalk](https://talk.swift.gg/)
@@ -108,8 +100,6 @@
 
 [PyTorch Developer Podcast](https://pytorch-dev-podcast.simplecast.com/)
 
-
-
 #### Salary Search
 
 https://salaryfly.com/
@@ -120,15 +110,11 @@ https://www.glassdoor.com/Salaries/index.htm
 
 https://www.levels.fyi/
 
-
-
 #### 天气查询
 
 [中央气象台(nmc.cn)](http://www.nmc.cn/)
 
 [windy.com](https://www.windy.com/)
-
-
 
 #### iTerm 相关配置
 
@@ -140,7 +126,7 @@ https://www.levels.fyi/
 
 ###### 创建新的Profile
 
-打开iTerm 的`perference` -> `profile`,创建新的`profile`并改名为`HotKey Window`
+打开iTerm 的 `perference` -> `profile`,创建新的 `profile`并改名为 `HotKey Window`
 
 ![](readme.assets/iShot2021-07-2211.04.25.png)
 
@@ -162,45 +148,37 @@ https://www.levels.fyi/
 
 ![image-20210722112045020](readme.assets/image-20210722112045020.png)
 
-点击`Configure Hotkey Windows`按钮进行配置快捷键选项
+点击 `Configure Hotkey Windows`按钮进行配置快捷键选项
 
-![image-20210722112154112](readme.assets/image-20210722112154112.png) 
+![image-20210722112154112](readme.assets/image-20210722112154112.png)
 
 要使得能够添加一个键作为iTerm 快捷键,需要做一些额外的配置
 
-打开`系统偏好设置` 选中 `键盘`
+打开 `系统偏好设置` 选中 `键盘`
 
 ![image-20210722112436919](readme.assets/image-20210722112436919.png)
 
-然后在`快捷键`-> `功能键中添加iTerm 2`
+然后在 `快捷键`-> `功能键中添加iTerm 2`
 
 ![image-20210722112655146](readme.assets/image-20210722112655146.png)
-
-
 
 #### 2.iTerm 2 添加SSH 连接
 
 ##### 1.新建profile,并设置登录commnad
 
-登录command 格式为`ssh user@ip -p port`
+登录command 格式为 `ssh user@ip -p port`
 
 ![image-20210722123920814](readme.assets/image-20210722123920814.png)
 
-
-
 ##### 2.添加触发器,配置密码
 
-选择`Advanced` 编辑Triggers
+选择 `Advanced` 编辑Triggers
 
 ![image-20210722124111420](readme.assets/image-20210722124111420.png)
 
-
-
-配置Triggers 参数(Parameters 参数为登录密码并添加`\n`参数)
+配置Triggers 参数(Parameters 参数为登录密码并添加 `\n`参数)
 
 ![image-20210722124315149](readme.assets/image-20210722124315149.png)
-
-
 
 ##### 3. 配置快捷键
 
@@ -212,13 +190,9 @@ https://www.levels.fyi/
 
 ![image-20210722124717070](readme.assets/image-20210722124717070.png)
 
-
-
-
-
 #### iTerm 2 配置X-Window
 
-为了能直接在macOS 中打开`virt-manager`,发现在`iTerm 2`中直接打开iTerm 2 会报错,查阅资料后发现需要给iTerm 2 配置以实现X11图形化界面显示.
+为了能直接在macOS 中打开 `virt-manager`,发现在 `iTerm 2`中直接打开iTerm 2 会报错,查阅资料后发现需要给iTerm 2 配置以实现X11图形化界面显示.
 
 ```
 # macOS安装xquartz
@@ -239,17 +213,7 @@ ssh -Y root@192.168.117.148
 
 ![image-20210723194035438](readme.assets/image-20210723194035438.png)
 
-
-
-
-
-
-
 #### macOS 快捷键
-
-
-
-
 
 #### install Golang(Linux Version)
 
@@ -288,3 +252,20 @@ echo "export GOPROXY=https://goproxy.cn" >> /etc/profile
 source /etc/profile
 ```
 
+
+
+快捷键
+
+1.Mac 如何在预览中使得图片能够翻页
+
+使用Command + A 全选图片，然后按空格即可打开预览窗口，打开的窗口会有翻页的选项。
+
+2.Mac 中如何打开一个新的Finder 窗口
+
+快捷键 Command + N
+
+3.打开应用程序的偏好设置
+
+快捷键 Command + ,
+
+4.
