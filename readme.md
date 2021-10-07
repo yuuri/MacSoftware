@@ -74,6 +74,10 @@
 
 36.[Amphetamine](https://apps.apple.com/app/amphetamine/id937984704?mt=12) (macOS 防止休眠应用)
 
+37.[AirBuddy](https://v2.airbuddy.app/)  (使Mac 像iOS一样显示耳机的弹出窗口)
+
+38.[Stats](https://github.com/exelban/stats)  (Mac System Monitor App)
+
 #### Podcast
 
 [GGtalk](https://talk.swift.gg/)
@@ -252,8 +256,6 @@ echo "export GOPROXY=https://goproxy.cn" >> /etc/profile
 source /etc/profile
 ```
 
-
-
 快捷键
 
 1.Mac 如何在预览中使得图片能够翻页
@@ -267,5 +269,3 @@ source /etc/profile
 3.打开应用程序的偏好设置
 
 快捷键 Command + ,
-
-4.
