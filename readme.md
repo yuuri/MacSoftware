@@ -123,6 +123,22 @@ https://www.levels.fyi/
 
 [windy.com](https://www.windy.com/)
 
+
+
+
+
+#### 设置macOS HostName
+
+```shell
+sudo scutil --set HostName set-you-want-hostname
+```
+
+参考
+
+- [搞懂 macOS 上的主机名/hostname/ComputerName](https://shockerli.net/post/macos-hostname-scutil/)
+
+
+
 #### iTerm 相关配置
 
 ##### 1.悬浮窗口
