@@ -288,3 +288,105 @@ source /etc/profile
 3.打开应用程序的偏好设置
 
 快捷键 Command + ,
+
+
+
+
+
+---
+
+
+
+### Windows 添加SSH支持
+
+系统需要是Windows10系统
+
+需要安装OpenSSH Server端,首先设置中找到应用的功能
+
+推荐使用PowerShell命令来安装
+
+
+
+1.查询openssh 是否存在
+
+```powershell
+Get-WindowsCapability -Online | ? Name -like 'OpenSSH*'
+```
+
+输出结果类似于
+
+![image-20220109155643208](readme.assets/image-20220109155643208.png)
+
+2.使用powershell 安装openssh
+
+```
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+```
+
+安装过程中...
+
+![image-20220109155738106](readme.assets/image-20220109155738106.png)
+
+安装完成后
+
+![image-20220109155753853](readme.assets/image-20220109155753853.png)
+
+3.启动sshd
+
+```
+Start-Service sshd
+```
+
+设置服务自启动
+
+```
+Set-Service -Name sshd -StartupType 'Automatic'
+```
+
+确认防火墙是否开启
+
+```
+Get-NetFirewallRule -Name *ssh*
+```
+
+观察**OpenSSH-Server-In-TCP** 参数是否为enabled
+
+![image-20220109200641584](readme.assets/image-20220109200641584.png)
+
+4.连接ssh
+
+连接和普通ssh连接一样
+
+```
+ssh root@192.168.2.101
+```
+
+根据提示输入密码即可进入
+
+
+
+
+
+5.将默认的shell替换为powershell
+
+在openssh的注册表中增加一个项
+
+注册表路径为**HKEY_LOCAL_MACHINE\SOFTWARE\OpenSSH** 
+
+项的名称为**DefautlShell**
+
+项的值为**C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe**
+
+
+
+
+
+也可以用powershell 命令的方式来完成上述操作
+
+```
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```
+
+执行及输出结果如下
+
+![image-20220109160512104](readme.assets/image-20220109160512104.png)
