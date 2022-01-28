@@ -81,6 +81,9 @@
 39.[fliqlo](https://fliqlo.com/screensaver/)
 
 40.[obsidian](https://obsidian.md/)  (Zettelkasten 笔记法的笔记管理软件)
+
+41.Balance Lock (修复Mac 音量平衡自动漂移的软件)
+
 #### Podcast
 
 [GGtalk](https://talk.swift.gg/)
