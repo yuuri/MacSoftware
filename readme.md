@@ -220,6 +220,24 @@ sudo scutil --set HostName set-you-want-hostname
 
 为了能直接在macOS 中打开 `virt-manager`,发现在 `iTerm 2`中直接打开iTerm 2 会报错,查阅资料后发现需要给iTerm 2 配置以实现X11图形化界面显示.
 
+
+
+在远程服务端需要修改部分sshd配置
+
+添加或者取消注释如下参数
+
+```
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost yes
+```
+
+修改完成后执行命令`systemctl restart sshd`重启sshd
+
+
+
+
+
 ```
 # macOS安装xquartz
 brew install xquartz
@@ -229,6 +247,10 @@ Run Applications > Utilities > XQuartz.app
 
 # 设置DISPLAY环境变量
 export DISPLAY=:0
+
+
+# 允许服务器的的x11界面连接过来
+xhost +　　
 
 # 适用ssh -Y 来登录终端
 ssh -Y root@192.168.117.148
