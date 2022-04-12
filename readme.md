@@ -142,6 +142,44 @@ sudo scutil --set HostName set-you-want-hostname
 
 
 
+
+
+#### 设置macOS Magic Mouse 与TrackPad 灵敏度
+
+查看Magic Mouse 灵敏度
+
+```
+defaults read -g com.apple.mouse.scaling
+```
+
+
+
+![image-20220412205538411](readme.assets/image-20220412205538411.png)
+
+
+
+设置Macgic Mouse 灵敏度
+
+```
+defaults write -g com.apple.mouse.scaling 5
+```
+
+![image-20220412205632028](readme.assets/image-20220412205632028.png)
+
+
+
+
+
+设置TrackPad 与Magic Mouse 类似,将mouse 改为trackpad 即可
+
+```shell
+houjie@houjiedeMacBook-Pro MacSoftware % defaults read -g com.apple.trackpad.scaling
+5
+houjie@houjiedeMacBook-Pro MacSoftware % defaults write -g com.apple.trackpad.scaling 5
+```
+
+
+
 #### iTerm 相关配置
 
 ##### 1.悬浮窗口
