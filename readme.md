@@ -84,6 +84,12 @@
 
 41.Balance Lock (修复Mac 音量平衡自动漂移的软件)
 
+42. [AltTab](https://alt-tab-macos.netlify.app/) (像windows 一样使用Alt-Tab,macOS 下快捷键为Option + Tab 键)
+
+
+
+
+
 #### Podcast
 
 [GGtalk](https://talk.swift.gg/)
