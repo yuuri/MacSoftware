@@ -86,7 +86,7 @@
 
 42. [AltTab](https://alt-tab-macos.netlify.app/) (像windows 一样使用Alt-Tab,macOS 下快捷键为Option + Tab 键)
 
-
+[Fig](https://fig.io/) (Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.)
 
 
 
