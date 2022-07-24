@@ -86,6 +86,8 @@
 
 42. [AltTab](https://alt-tab-macos.netlify.app/) (像windows 一样使用Alt-Tab,macOS 下快捷键为Option + Tab 键)
 
+[Warp](https://www.warp.dev/) (The terminal for the 21st century)
+
 [Fig](https://fig.io/) (Fig adds IDE-style autocomplete to your existing terminal. Move faster with Fig.)
 
 
@@ -115,6 +117,10 @@
 [FM3.14](https://podcasts.apple.com/cn/podcast/id1492046083)
 
 [PyTorch Developer Podcast](https://pytorch-dev-podcast.simplecast.com/)
+
+[Rust Talk](https://rusttalk.github.io/podcast/)
+
+
 
 #### Salary Search
 
