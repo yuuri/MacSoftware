@@ -120,6 +120,10 @@
 
 [Rust Talk](https://rusttalk.github.io/podcast/)
 
+[CoRecursive](https://corecursive.com/)
+
+
+
 
 
 #### Salary Search
