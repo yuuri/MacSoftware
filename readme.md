@@ -469,3 +469,22 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Wi
 执行及输出结果如下
 
 ![image-20220109160512104](readme.assets/image-20220109160512104.png)
+
+
+### iTerm 2 快捷键
+
+command + t：新建窗口
+
+command + d：垂直分屏，
+
+command + shift + d：水平分屏。
+
+command + ] 和command + [ 在最近使用的分屏直接切换.
+
+command + alt + 方向键：切换到指定位置的分屏。
+
+command + 数字：切换标签页。
+
+command + 方向键：按方向切换标签页。
+
+shift + command + s：保存当前窗口快照。
