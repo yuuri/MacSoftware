@@ -488,3 +488,17 @@ command + 数字：切换标签页。
 command + 方向键：按方向切换标签页。
 
 shift + command + s：保存当前窗口快照。
+
+
+---
+
+ Apple Silicon Mac Use Rosetta2
+
+In Terminal, use
+
+> arch -x86_64 zsh
+
+to start a shell under Rosetta 2.
+
+
+![image-20230506162030.png](readme.assets/image-20230506162030.png)

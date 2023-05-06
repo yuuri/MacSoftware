@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f591d41a796f888d",
+        "id": "143429e87e8b57f3",
         "type": "tabs",
         "children": [
           {
-            "id": "6be9d8601f8c0980",
+            "id": "48d08a9ddbcf57e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "readme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -56,6 +52,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "7b0db332a2557573",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,9 +107,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6be9d8601f8c0980",
+  "active": "48d08a9ddbcf57e4",
   "lastOpenFiles": [
     "readme.md",
+    "readme.assets/image-20230506162030.png",
+    "readme.assets/Pasted.md",
     "Linux/openvpn.md.md"
   ]
 }
